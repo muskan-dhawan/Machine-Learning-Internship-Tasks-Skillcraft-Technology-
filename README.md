@@ -80,3 +80,6 @@ Scikit-learn
 Purpose of the Repository
 
 The main goal of this repository is to strengthen machine learning fundamentals and gain hands-on experience with real-world datasets. These projects can be used for academic submissions, internships, or as part of a personal ML portfolio.
+
+4. SCT_ML_4 - Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
+
