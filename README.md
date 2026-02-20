@@ -81,5 +81,50 @@ Purpose of the Repository
 
 The main goal of this repository is to strengthen machine learning fundamentals and gain hands-on experience with real-world datasets. These projects can be used for academic submissions, internships, or as part of a personal ML portfolio.
 
-4. SCT_ML_4 - Develop a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
+4. SCT_ML_4 - Developed a hand gesture recognition model that can accurately identify and classify different hand gestures from image or video data, enabling intuitive human-computer interaction and gesture-based control systems.
+   Project: Hand Gesture Recognition Using CNN
+
+Objective:
+
+Recognize and classify hand gestures from images or live video.
+
+Can be used for gesture-controlled applications, e.g., sign language recognition or touchless interfaces.
+
+Dataset:
+
+LeapGestRecog dataset from Kaggle
+
+10 gesture classes: c, down, fist, fist_moved, index, l, ok, palm, palm_moved, thumb
+
+~20,000 images, split 80% training / 20% validation
+
+Technology Stack:
+
+Python & Google Colab
+
+Kaggle API – download dataset
+
+TensorFlow & Keras – build/train CNN
+
+OpenCV – capture webcam input and predict gestures in real-time
+
+CNN Architecture: 3 Conv2D + MaxPooling layers → Flatten → Dense layers → Output softmax for 10 classes
+
+Workflow:
+
+Download dataset and reorganize images
+
+Preprocess images (resize, normalize)
+
+Build and train CNN
+
+Save model (.h5 and .keras)
+
+Use webcam or uploaded images for real-time gesture prediction
+
+Outcome:
+
+High accuracy on validation (~99.98%)
+
+Real-time prediction works via webcam or static image upload
 
